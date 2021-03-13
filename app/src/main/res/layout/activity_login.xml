@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg_login"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sparklogo"/>
+
+        <Button
+            android:id="@+id/btn_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_google"
+            android:padding="15dp"
+            android:text="@string/googleSignIn"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:cornerRadius="32dp" />
+
+        <Button
+            android:id="@+id/btn_fb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/fb_color"
+            android:drawableLeft="@drawable/ic_facebook"
+            android:padding="15dp"
+            android:text="@string/fbSignIn"
+            android:textSize="16dp"
+            app:cornerRadius="32dp" />
+
+        <Button
+            android:id="@+id/btn_tw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/tw_color"
+            android:drawableLeft="@drawable/ic_twitter"
+            android:padding="15dp"
+            android:text="@string/twSignIn"
+            android:textSize="16dp"
+            app:cornerRadius="32dp" />
+
+        <Button
+            android:id="@+id/btn_ldn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/ldn_color"
+            android:drawableLeft="@drawable/ic_linkedin"
+            android:padding="15dp"
+            android:text="@string/ldnSignIn"
+            android:textSize="16dp"
+            app:cornerRadius="32dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

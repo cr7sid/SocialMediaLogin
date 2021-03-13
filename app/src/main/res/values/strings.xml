@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SocialMediaLogin</string>
+    <string name="facebook_app_id">468359917636980</string>
+    <string name="fb_login_protocol_scheme">fb468359917636980</string>
+    <string name="googleSignIn">Sign in using google</string>
+    <string name="fbSignIn">Sign in using facebook</string>
+    <string name="twSignIn">Sign in using twitter</string>
+    <string name="ldnSignIn">Sign in using linkedin</string>
+    <string name="fName">Full Name</string>
+    <string name="backLogin">Back to Login</string>
+    <string name="email_title">Email Address</string>
+    <string name="example_email">abc@gmail.com</string>
+    <string name="username_title">User Name</string>
+    <string name="gender_title">Gender</string>
+    <string name="gender">Male</string>
+    <string name="bday_title">Date of Birth</string>
+    <string name="link_title">Profile Link</string>
+    <string name="bday">25/09/2001</string>
+    <string name="link">https://www.facebook.com/siddharth.dubey.77920</string>
+    <string name="username">&#64;siddharthdubey369</string>
+    <string name="consumerKey">rfPNsM8vGTEip2DdVzeLKiIqt</string>
+    <string name="consumerSecret">AdKrN5fN4kSz3JcdBpkPL8W9IkM1AcoVKAnBZL5B5aJ5587NgV</string>
+    <string name="place">Udaipur, Rajasthan</string>
+</resources>
